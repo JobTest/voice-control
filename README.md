@@ -22,13 +22,15 @@ spring:
 ```
 
 * [Mongo Plugin](https://plugins.jetbrains.com/plugin/7141-mongo-plugin)
-  ![Mongo Plugin](tutorial/screenshot_16492.png)
+  ![1](tutorial/1.jpg)
+  ![2](tutorial/2.jpg)
+  ![3](tutorial/3.jpg)
 
 * [Support for Query-by-Example](https://github.com/spring-projects/spring-data-examples/tree/master/jpa/query-by-example)
-  ![s7Oelm](tutorial/s7Oelm.jpg)
+  ![4](tutorial/4.jpg)
 
 * [Reactive Spring Data MongoDB](http://javasampleapproach.com/reactive-programming/angular-4-spring-webflux-spring-data-reactive-mongodb-example-full-reactive-angular-4-http-client-spring-boot-restapi-server)
-  ![angular-4-spring-webflux-reactive-mongodb-architecture](tutorial/angular-4-spring-webflux-reactive-mongodb-architecture.png)
+  ![5](tutorial/5.png)
 
 ############################################################
 
