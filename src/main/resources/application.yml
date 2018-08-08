@@ -9,12 +9,6 @@ server:
   port: 9000
   address: localhost
 
-game:
-  ws-host: game-round
-  cron:
-    start-round: "9,19,29,39,49,59 * * * * *"
-    stop-round: "5,15,25,35,45,55 * * * * *"
-
 logging:
   file: logs/voice-control.log
 
@@ -24,3 +18,9 @@ info:
         name: VoiceControl
         description: For voice-control app
         version: 0.0.1
+
+game:
+  ws-host: game-round
+  cron:
+    start-round: "9,19,29,39,49,59 * * * * *"
+    stop-round: "5,15,25,35,45,55 * * * * *"
