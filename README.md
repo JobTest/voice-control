@@ -4,7 +4,7 @@ Voice Control
 
 Stack:
 - `Java 8`
-- `Spring Boot 2` (для `Reactive Spring 5` Swagger не поддерживается)
+- `Spring Boot 2` (**для `Reactive Spring 5` Swagger не поддерживается**)
 - `Spring Webflux` & `WebFluxTest`
 - JavaScript `WebSocket`
 - `MongoDB Reactive`
