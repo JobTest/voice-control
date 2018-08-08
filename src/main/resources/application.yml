@@ -1,0 +1,26 @@
+spring:
+    application:
+        name: voice-control
+    data:
+        mongodb:
+            uri: mongodb://admin:1978@localhost:27017/test?authMechanism=SCRAM-SHA-1
+
+server:
+  port: 9000
+  address: localhost
+
+game:
+  ws-host: game-round
+  cron:
+    start-round: "9,19,29,39,49,59 * * * * *"
+    stop-round: "5,15,25,35,45,55 * * * * *"
+
+logging:
+  file: logs/voice-control.log
+
+info:
+    build:
+        artifact: voice-control
+        name: VoiceControl
+        description: For voice-control app
+        version: 0.0.1
